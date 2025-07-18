@@ -1,6 +1,6 @@
 // ===== Перевірка спаму =====
 
-function checkForSpam4(message) {
+function checkForSpam(message) {
     const normalizedMessage = message.toLowerCase();
     return normalizedMessage.includes("spam") || normalizedMessage.includes("sale");
 }
